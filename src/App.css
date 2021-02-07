@@ -6,3 +6,18 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.container {
+  width:80%;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+}
+.left {
+  display:inline-block;
+}
+.right {
+  display:inline-block;
+}
+.hide {
+  display:none;
+}
