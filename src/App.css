@@ -7,17 +7,10 @@
 }
 /* write your parent styles in here for your App.js */
 .container {
-  width:80%;
+  width:95%;
   margin:auto;
-  display:flex;
-  justify-content: space-between;
-}
-.left {
-  display:inline-block;
-}
-.right {
-  display:inline-block;
-}
-.hide {
-  display:none;
+  text-align: left;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
